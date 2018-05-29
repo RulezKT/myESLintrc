@@ -34,6 +34,21 @@ module.exports = {
     'react-app/jsx-a11y/href-no-hash': 'off',
 
     'class-methods-use-this': 'off',
+
+    'no-shadow': [
+      'error',
+      {
+        "hoist": "all",
+        "allow": [
+          "resolve",
+          "reject",
+          "done",
+          "next",
+          "err",
+          "error"
+        ]
+      }
+    ],
   },
 
   plugins: ['prettier', 'jsx-a11y', 'react'],
