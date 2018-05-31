@@ -18,16 +18,32 @@ module.exports = {
   },
 
   rules: {
-    'no-console': 0,
+    'no-console': 'off',
 
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+
+    'arrow-body-style': ['error', 'as-needed'],
+
+    'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
+
+    'no-param-reassign': ['error', { props: false }],
+
+    'comma-dangle': 'off',
+
+    quotes: [
+      'error',
+      'single',
+      {
+        avoidEscape: true,
+        allowTemplateLiterals: true,
+      },
+    ],
 
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all',
-        arrowParens: 'always',
+        trailingComma: 'es5',
       },
     ],
 
@@ -38,16 +54,9 @@ module.exports = {
     'no-shadow': [
       'error',
       {
-        "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
-      }
+        hoist: 'all',
+        allow: ['resolve', 'reject', 'done', 'next', 'err', 'error'],
+      },
     ],
   },
 
