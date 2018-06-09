@@ -22,28 +22,14 @@ module.exports = {
 
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
-    'arrow-body-style': ['error', 'as-needed'],
-
-    'no-unused-expressions': ['error', { allowTaggedTemplates: true }],
-
-    'no-param-reassign': ['error', { props: false }],
-
-    'comma-dangle': 'off',
-
-    quotes: [
-      'error',
-      'single',
-      {
-        avoidEscape: true,
-        allowTemplateLiterals: true,
-      },
-    ],
+    'arrow-parens': 'off',
 
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
-        trailingComma: 'es5',
+        trailingComma: 'all',
+        arrowParens: 'avoid',
       },
     ],
 
