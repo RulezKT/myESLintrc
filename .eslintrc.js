@@ -22,6 +22,8 @@ module.exports = {
 
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
+    'no-confusing-arrow': 'off',
+
     'arrow-parens': 'off',
 
     'prettier/prettier': [
