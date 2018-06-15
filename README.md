@@ -15,4 +15,3 @@ The folowing dependencies must be added to package.json.
   "prettier": "^1.13.2" <br>
 }
 ```
-![pow-wow](_v_images/_powwow_1529103882_508537283.jpg)
