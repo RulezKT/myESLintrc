@@ -5,6 +5,7 @@
 package.json
 
 "devDependencies": { <br>
+  <pre>
   "eslint": "^5.0.0-alpha.4", <br>
   "eslint-config-airbnb-base": "^12.1.0", <br>
   "eslint-config-prettier": "^2.9.0", <br>
@@ -14,4 +15,6 @@ package.json
   "eslint-plugin-react": "^7.8.2", <br>
   "eslint-plugin-react-app": "^3.0.0", <br>
   "prettier": "^1.13.2" <br>
+  <pre/>
 }
+&nbsp;
