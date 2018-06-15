@@ -1,7 +1,6 @@
 # myESLintrc
-.eslintrc.js file
 
-**My personal .eslintre.js and .eslintignore files**
+**My personal .eslintrc.js and .eslintignore files**
 
 package.json
 
