@@ -1,6 +1,6 @@
 # My personal .eslintrc.js and .eslintignore files
 
-The folowing dependencies are needed to be added in package.json.
+The folowing dependencies must be added to package.json.
 
 ```
 "devDependencies": {
